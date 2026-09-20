@@ -1,33 +1,26 @@
-# Personal homepage
+# Zhihang Yi (Liam)
 
-A static personal homepage inspired by Colin Raffel's native HTML site:
-https://colinraffel.com/
+Source for my personal website: [yzhbradoodrrpurp.github.io](https://yzhbradoodrrpurp.github.io/).
 
-Uses browser-default monospace, native blue links and a centered text column.
-No framework, external fonts, JavaScript, analytics, or build step.
-On small screens the body type increases to 16px for readability.
+A little about my education, research, and life outside it. Built with plain HTML,
+monospace type, and a black-and-white portrait. Design inspired by
+[Colin Raffel's homepage](https://colinraffel.com/).
 
-## Edit
+## Update
 
-Edit `index.html` directly. Content was adapted from `MyCV/main.tex` on
-2026-09-20; review affiliations and publication information before publishing.
-The CV PDF is a snapshot and should be replaced whenever your CV changes.
-To add a portrait, place your own `portrait.jpg` beside `index.html` and
-uncomment the image element. No placeholder or third-party portrait is shown.
+- Edit `index.html` to update the page.
+- Replace `portrait.png` to change the photo.
+- Replace `Zhihang_Yi_CV.pdf` to update the downloadable CV.
 
-## GitHub Pages
+No dependencies or build step are required. GitHub Pages serves the site from
+the repository root; keep `.nojekyll` in place.
 
-Copy `index.html`, `.nojekyll` and `Zhihang_Yi_CV.pdf` to the root of your
-`<username>.github.io` repository. In Settings → Pages select
-Deploy from a branch, then the branch containing these files and /(root).
-There is no custom domain configuration to remove.
+## Preview locally
 
-## Local preview
-
-From this folder run:
+Run from the repository root:
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8765/ in your browser.
+Then open [localhost:8765](http://127.0.0.1:8765/).
